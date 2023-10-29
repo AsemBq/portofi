@@ -23,11 +23,13 @@ document.querySelector("li.MyProject").addEventListener("click",()=>{
 
 
 // for mobile 
+
+
 document.querySelector("#About").addEventListener("click",()=>{
     document.querySelector("nav.mobile-nav ul li.active").classList.remove("active");
     document.querySelector("#About").classList.add('active');
     document.querySelector(".sections section.active").classList.remove("active");
-    document.querySelector('section.Tecnology').classList.add('active');
+    document.querySelector('section.AboutMe').classList.add('active');
 })
 
 document.querySelector("#Skilles").addEventListener("click",()=>{
@@ -41,5 +43,7 @@ document.querySelector("#projects").addEventListener("click",()=>{
     document.querySelector("nav.mobile-nav ul li.active").classList.remove("active");
     document.querySelector("#projects").classList.add('active');
     document.querySelector(".sections section.active").classList.remove("active");
-    document.querySelector('section.Tecnology').classList.add('active');
+    document.querySelector('section.MyProject').classList.add('active');
 })
+
+

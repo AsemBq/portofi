@@ -18,7 +18,7 @@
 }
 * {
   font-family: "poppins";
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
 }
 a {
   text-decoration: none;
@@ -268,7 +268,7 @@ header .titel {
 
 .skilles li {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   border: 1px solid #a0a0a0;
   border-radius: 8px;
@@ -279,10 +279,12 @@ header .titel {
   vertical-align: middle;
 }
 .skilles li span.left {
+  width: 70%;
   font-weight: 500;
+  border-right: 1px solid #a0a0a0;
 }
 .skilles li span.right i {
-  border-left: 1px solid #a0a0a0;
+  /* border-left: 1px solid #a0a0a0; */
   padding: 10px 15px;
 }
 .other_skilles li {

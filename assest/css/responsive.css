@@ -7,6 +7,13 @@
   nav {
     display: none;
   }
+
+
+  .sections section{
+    display: none ;
+  }
+
+
   nav.mobile-nav {
     display: block;
     background-color: #333533;
@@ -16,6 +23,11 @@
     right: 0;
     bottom: 0;
   }
+
+  .sections section{
+    margin-bottom: 40px;
+  }
+
   .sections,
   .sections section:last-child {
     width: auto;
@@ -93,6 +105,25 @@
   .contact div {
     width: 100%;
   }
+
+  .skilles li span{
+    font-size: 16px;
+  }
+  .skilles li span.left {
+    width: 70%;}
+
+
+  .skilles li span.right{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .skilles li img{
+    width: 36px;
+    height: 36px;
+  }
+
 
 
   .project {
