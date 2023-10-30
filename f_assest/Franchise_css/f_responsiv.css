@@ -1,0 +1,356 @@
+@media only screen and (max-width: 992px) {
+  /* Header Style */
+
+  header {
+    height: 400px;
+    border-bottom-left-radius: 60px;
+  }
+  
+  header .top nav {
+    height: 60px;
+    justify-content: space-around;
+    position:fixed;
+    z-index: 8;
+    background-color: #161735;
+  }
+
+  header nav .button{
+    display: none;
+  }
+
+  header a.mobile-button{
+    display: inline-block;
+    color: #ffa200;
+    justify-self: flex-end;
+    font-size: 30px;
+  }
+  header .top nav ul {
+    display: none;
+  }
+  header .top nav {
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  header .top nav img {
+    margin: 0;
+    width: 170px;
+    height: 50px;
+  }
+  header .bottom img.pic1 {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    top: 80px;
+  }
+
+  header .bottom .slider {
+    position: relative;
+    left: 35px;
+    top: 240px;
+  }
+
+  header .bottom .slider .top {
+    height: 75px;
+    vertical-align: top;
+    padding-top: 0px;
+  }
+  header .bottom .slider .bottom {
+    width: 180px;
+    height: 195px;
+  }
+  header .bottom .slider .bottom img {
+    width: 80%;
+  }
+  header .bottom .slider .bottom span {
+    font-size: 14px;
+  }
+  header .bottom .slider .bottom a {
+    font-size: 13px;
+  }
+  header .bottom .slider .top span.left {
+    font-size: 15px;
+  }
+  header .bottom .slider .top span.right {
+    font-size: 10px;
+  }
+
+  /* Secsion Style */
+
+  section.about-us {
+    margin-top: 100px;
+    height: 910px;
+    padding-bottom: 100px;
+  }
+  section.about-us div.top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.about-us div.top .left {
+    width: 324px;
+  }
+
+  section.about-us div.top .left h6 {
+    font-size: 13px;
+  }
+  section.about-us div.top .left h2 {
+    font-size: 19px;
+    width: 275px;
+  }
+
+  section.about-us div.top .right {
+    width: 324px;
+    margin-top: 50px;
+  }
+  section.about-us div.top .right img {
+    margin-bottom: 13px;
+  }
+  section.about-us div.top .right .text span {
+    font-size: 14px;
+  }
+  section.about-us div.top .right .text h3 {
+    font-size: 14px;
+  }
+
+  section.about-us div.bottom {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  section.about-us div.bottom div {
+    width: 324px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  section.about-us div.bottom div h3 {
+    margin: 10px 0px;
+  }
+
+  /* Second Section Style */
+
+  section.second {
+    height: 885px;
+    margin-top: 30px;
+  }
+
+  section.second .countainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.second .left img {
+    width: 324px;
+    height: auto;
+  }
+  section.second .left div {
+    width: 324px;
+  }
+  section.second .left h2 {
+    font-size: 19px;
+  }
+
+  section.second .right {
+    height: 319px;
+    width: 95%;
+    align-items: center;
+  }
+
+  section.second .right img {
+    width: 90%;
+  }
+
+  section.second .right div.locations {
+    box-sizing: border-box;
+    width: 264px;
+    height: 202px;
+    position: relative;
+    left: 00px;
+    bottom: 190px;
+  }
+
+  section.second .right div.locations h2 {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+
+  section.second .right div.locations .top i {
+    font-size: 19px;
+    margin-left: 50px;
+  }
+  section.second .right div.locations p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* Third Section Style */
+
+  section.third {
+    height: auto;
+    border-top-left-radius: 50px;
+  }
+
+  section.third .top,
+  section.third .bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  section.third .top .left,
+  section.third .top .right {
+    width: 80%;
+    margin-left: 0;
+    padding-right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.third .top .left h2,
+  section.third .top .right h2 {
+    width: 80%;
+    font-size: 19px;
+  }
+  section.third .top .left p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  section.third .top .right a {
+    font-size: 13px;
+  }
+
+  section.third .bottom .left {
+    width: 80%;
+  }
+
+  section.third .bottom .left img{
+    padding-top: 0;
+  }
+  section.third .bottom .left div {
+    padding: 0px 0px 0px 20px;
+  }
+  section.third .bottom img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+
+  /* Fourth Section Style */
+
+  section.fourth {
+    padding-top: 25px;
+  }
+  section.fourth .title {
+    width: 80%;
+    height: auto;
+    margin: 0;
+  }
+
+  section.fourth .title h6 {
+    margin: 15px 0px;
+    font-size: 13px;
+  }
+
+  section.fourth .title h2 {
+    font-size: 19px;
+  }
+  section.fourth .blogs {
+    flex-direction: column;
+  }
+
+  section.fourth .blog {
+    width: 100%;
+    margin: 17px 0px !important;
+  }
+
+  section.fourth .blog .text h3,
+  section.fourth a.categori,
+  section.fourth .blog .text p {
+    width: 248px;
+  }
+
+  section.fourth a.categori {
+    font-size: 13px;
+  }
+
+  section.fourth .blog .text h3 a {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  section.fourth .blog .text p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  /* Section Fifth Style */
+
+  section.fifth {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 75px 0px;
+  }
+
+  section.fifth div {
+    margin: 0px;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  section.fifth div {
+    width: 80% !important;
+  }
+  
+ 
+  section.fifth div.left .num a,
+  section.fifth div.left .email a,
+  section.fifth div.left p {
+    font-size: 13px;
+  }
+  
+  section.fifth .list h6{
+    font-size: 16px;
+  }
+
+  section.fifth .list li a{
+    font-size: 13px;
+  }
+
+
+  /* Footer Style */
+
+  footer{
+    height: 170px;
+  }
+
+  footer .countainer .text{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer p{
+    text-align: center;
+    font-size: 13px;
+    margin-right: 0px;
+    width: 80%;
+    line-height: 18px;
+  }
+
+  footer .countainer li{
+    font-size: 13px;
+  }
+
+  footer .countainer{
+    background-image: none;
+  }
+
+  footer .countainer .text img{
+    display: block;
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+}
