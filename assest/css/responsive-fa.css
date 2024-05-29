@@ -114,11 +114,12 @@
   .skilles li span{
     font-size: 16px;
   }
-  .skilles li span.left {
+  .skilles li span.right {
     width: 60%;}
 
-    .skilles li span.right{
+    .skilles li span.left{
       width: 40%;
+      margin-right: 0;
     }
 
   .skilles li img{

@@ -165,7 +165,7 @@ header .titel {
   border-left: 1px solid #333533;
   padding-left: 50px;
 }
-.sections #MyProject {
+.sections .MyProject {
   width: 880px;
 }
 .contact {
@@ -277,16 +277,20 @@ header .titel {
 }
 .skilles li img {
   vertical-align: middle;
+  width: 48px;
+  height: 48px;
 }
 .skilles li span.left {
   width: 70%;
   font-weight: 500;
   border-right: 1px solid #a0a0a0;
 }
-.skilles li span.right i {
-  /* border-left: 1px solid #a0a0a0; */
-  padding: 10px 15px;
+
+.skilles li span.right{
+  width: 30%;
+  text-align: center;
 }
+
 .other_skilles li {
   border: 1px solid #333533;
   border-radius: 24px;
@@ -308,7 +312,7 @@ header .titel {
 }
 
 .project .top img{
-  width: 220px;
+  width: 100%;
   height: 180px;
   border-radius: 8px;
   object-fit: cover;

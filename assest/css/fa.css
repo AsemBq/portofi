@@ -182,7 +182,7 @@ header .titel {
   padding-right: 50px;
   text-align: right;
 }
-.sections #MyProject {
+.sections .MyProject {
   width: 880px;
   float: right;
 }

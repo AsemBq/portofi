@@ -53,4 +53,9 @@ document.querySelector("#projects").addEventListener("click",()=>{
     document.querySelector('section.MyProject').classList.add('active');
 })
 
-
+document.querySelector("#liContact").addEventListener("click",()=>{
+  document.querySelector("nav.mobile-nav ul li.active").classList.remove("active");
+  document.querySelector("#liContact").classList.add('active');
+  document.querySelector(".sections section.active").classList.remove("active");
+  document.querySelector('section.ContactMe').classList.add('active');
+})

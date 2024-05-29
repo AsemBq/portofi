@@ -6,12 +6,13 @@
     <title>Asem.bq</title>
     <link
       rel="shortcut icon"
-      href="./assest/pic/icon.ico"
+      href="./assest/icon/fav.ico"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./assest/css/fa.css" />
     <link rel="stylesheet" href="./assest/css/all.min.css" />
-    <link rel="stylesheet" href="./assest/css/responsive.css" />
+    <link rel="stylesheet" href="./assest/css/responsive-fa.css" />
+    <link rel="stylesheet" href="./assest/css/contactme-fa.css">
   </head>
   <body>
     <!-- header -->
@@ -36,7 +37,7 @@
       <!-- section -->
 
       <section class="sections">
-        <section class="AboutMe ">
+        <section class="AboutMe active">
           <h4>درباره من</h4>
           <p>
             من عاصم بازماندگان هستم، یک توسعه‌دهنده جدید در زمینه جلوه‌ی کاربری از ایران. اخیراً وارد دنیای برنامه‌نویسی شده‌ام و با انگیزه به یادگیری و بهبود مهارت‌هایم می‌پردازم. علاقه زیادی به توسعه وب دارم و دنبال فرصت‌های همکاری با تیم‌های حرفه‌ای می‌گردم. هدف اصلی من، بهبود و توسعه مهارت‌های برنامه‌نویسی جلوه‌ی کاربری است و همواره برای یادگیری و پیشرفت آماده‌ام
@@ -98,7 +99,7 @@
           <ul class="skilles">
             <li>
               <span class="left"
-                >Intermediate</span
+                >سطح متوسط</span
               >
               <span class="right"
                 >HTML<img src="./assest/icon/html.png" alt="" /></span
@@ -106,23 +107,23 @@
             </li>
             <li>
               <span class="left"
-                >Intermediate</span
+                >سطح مبتدی</span
               >
               <span class="right"
-                >HTML<img src="./assest/icon/html.png" alt="" /></span
+                >HTML<img src="./assest/icon/css.png" alt="" /></span
               >
             </li>
             <li>
               <span class="left"
-                >Intermediate</span
+                >سطح پیشرفته</span
               >
               <span class="right"
-                >HTML<img src="./assest/icon/html.png" alt="" /></span
+                >JS<img src="./assest/icon/js.png" alt="" /></span
               >
             </li>
             <li>
               <span class="left"
-                >Intermediate</span
+                >سطح پیشرفته</span
               >
               <span class="right"
                 >HTML<img src="./assest/icon/html.png" alt="" /></span
@@ -265,15 +266,23 @@
           </div>
         </section>
 
-        <section class="ContactMe active">
-          <h4>ارتباط با من </h4>
-          <div id="container">
+        <section class="ContactMe">
+          <h4>ارتباط با من</h4>
+          <div class="container">
             <form action="">
-              <h4>Account</h4>
               <div class="input-group input-group-icon">
-                <input type="text" placeholder="Full Name" fdprocessedid="q3uzmq">
+                <input type="text" placeholder="نام" fdprocessedid="q3uzmq">
                 <div class="input-icon"><i class="fa-solid fa-user"></i></div>
               </div>
+              <div class="input-group input-group-icon">
+                <input type="email" placeholder="ایمیل" fdprocessedid="kft728">
+                <div class="input-icon"><i class="fa fa-envelope"></i></div>
+              </div>
+              <div class="input-group input-group-icon">
+                <textarea name="" id="" rows="10" placeholder="پیام..."></textarea>
+                <div class="input-icon"><i class="fa-solid fa-comment"></i></div>
+              </div>
+              <input id="button" type="submit" value="ارسال">
             </form>
           </div>
         </section>
@@ -295,16 +304,21 @@
             پروژه های من 
             <span class="marker"><i class="fa-solid fa-angle-left"></i></span>
           </li>
+          <li id="ContactMe" class="">
+            ارتباط با من
+            <span class="marker"><i class="fa-solid fa-angle-left"></i></span>
+          </li>
         </ul>
       </nav>
     </div>
     <nav class="mobile-nav">
       <ul>
         <li id="About" class="active">
-          <i class="fa-regular fa-user"></i>About
+          <i class="fa-regular fa-user"></i>اطلاعات
         </li>
-        <li id="Skilles"><i class="fa-solid fa-code"></i>Skilles</li>
-        <li id="projects"><i class="fa-solid fa-laptop-code"></i>projects</li>
+        <li id="Skilles"><i class="fa-solid fa-code"></i>مهارت‌ها</li>
+        <li id="projects"><i class="fa-solid fa-laptop-code"></i>پروژها</li>
+        <li id="liContact"><i class="fa-solid fa-phone"></i>ارتباط</li>
       </ul>
     </nav>
 
