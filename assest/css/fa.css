@@ -321,7 +321,7 @@ header .titel {
   border: 1px solid #a0a0a0;
   border-radius: 8px;
   padding: 11px;
-  width: 28%;
+  width: 25%;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -364,10 +364,12 @@ header .titel {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: end;
 }
 
-.project:not(:last-child) {
-  margin-right: 20px;
+.project{
+  margin-left: 20px;
+  float: left;
 }
 
 .project {
@@ -405,11 +407,4 @@ header .titel {
 
 .project .buttons a i {
   margin-right: 5px;
-}
-
-.Contact #name{
-  background: url('../icon/comment-solid.svg') no-repeat scroll 7px;
-  padding-left: 30px;
-  border-color: #333533;
-  
 }
