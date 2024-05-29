@@ -165,7 +165,7 @@ header .titel {
   border-left: 1px solid #333533;
   padding-left: 50px;
 }
-.sections section:last-child {
+.sections #MyProject {
   width: 880px;
 }
 .contact {
@@ -382,4 +382,8 @@ header .titel {
 
 .project .buttons a i {
   margin-right: 5px;
+}
+
+section.ContactMe{
+  padding-bottom: 75px;
 }

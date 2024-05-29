@@ -6,12 +6,13 @@
     <title>Asem.bq</title>
     <link
       rel="shortcut icon"
-      href="./assest/pic/icon.ico"
+      href="./assest/icon/fav.ico"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./assest/css/index.css" />
     <link rel="stylesheet" href="./assest/css/all.min.css" />
     <link rel="stylesheet" href="./assest/css/responsive.css" />
+    <link rel="stylesheet" href="./assest/css/contactme.css">
   </head>
   <body>
     <!-- header -->
@@ -46,6 +47,10 @@
           <li class="MyProject">
             <span class="marker"><i class="fa-solid fa-angle-right"></i></span>
             My Project
+          </li>
+          <li id="ContactMe" class="">
+            <span class="marker"><i class="fa-solid fa-angle-right"></i></span>
+            Contact Me
           </li>
         </ul>
       </nav>
@@ -175,7 +180,7 @@
         </section>
 
         <!-- section -->
-        <section class="MyProject">
+        <section id="MyProject" class="MyProject">
           <h4>My Project</h4>
           <div class="projects">
             <div class="project">
@@ -292,6 +297,27 @@
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section class="ContactMe">
+          <h4>Contact Me</h4>
+          <div class="container">
+            <form action="">
+              <div class="input-group input-group-icon">
+                <input type="text" placeholder="Full Name" fdprocessedid="q3uzmq">
+                <div class="input-icon"><i class="fa-solid fa-user"></i></div>
+              </div>
+              <div class="input-group input-group-icon">
+                <input type="email" placeholder="Email Adress" fdprocessedid="kft728">
+                <div class="input-icon"><i class="fa fa-envelope"></i></div>
+              </div>
+              <div class="input-group input-group-icon">
+                <textarea name="" id="" rows="10" placeholder="Message..."></textarea>
+                <div class="input-icon"><i class="fa-solid fa-comment"></i></div>
+              </div>
+              <input id="button" type="submit" value="Send">
+            </form>
           </div>
         </section>
       </section>

@@ -20,6 +20,13 @@ document.querySelector("li.AboutMe").addEventListener("click",()=>{
     document.querySelector('section.MyProject').classList.add('active')
   })
 
+  document.querySelector("#ContactMe").addEventListener("click",()=>{
+    document.querySelector(".countainer nav ul li.active").classList.remove("active");
+    document.querySelector(".sections section.active").classList.remove("active")
+    document.querySelector("#ContactMe").classList.add('active')
+    document.querySelector('section.ContactMe').classList.add('active')
+  })
+
 
 
 // for mobile 

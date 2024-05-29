@@ -182,7 +182,7 @@ header .titel {
   padding-right: 50px;
   text-align: right;
 }
-.sections section:last-child {
+.sections #MyProject {
   width: 880px;
   float: right;
 }
