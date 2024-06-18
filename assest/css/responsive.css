@@ -7,7 +7,7 @@
   nav {
     display: none;
   }
-  input,textarea{
+  input:not(#button),textarea{
     width: 80% !important;
   }
 
@@ -149,7 +149,7 @@
   nav.mobile-nav ul{
     display: flex;
     justify-content: space-between;
-    
+    font-size: 10px;
 
   }
 
@@ -166,5 +166,8 @@
   nav.mobile-nav ul li.active{
     color: #ffd100;
     border-bottom:4px solid #ffd100 ;
+  }
+  #button{
+    width: 100% !important;
   }
 }

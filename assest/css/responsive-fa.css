@@ -8,6 +8,9 @@
     display: none;
   }
 
+  input:not(#button),textarea{
+    width: 80% !important;
+  }
 
   .sections section{
     display: none ;
@@ -147,7 +150,7 @@
   nav.mobile-nav ul{
     display: flex;
     justify-content: space-between;
-    
+    font-size: 10px;
 
   }
 
@@ -164,5 +167,9 @@
   nav.mobile-nav ul li.active{
     color: #ffd100;
     border-bottom:4px solid #ffd100 ;
+  }
+
+  #button{
+    width: 96% !important;
   }
 }
