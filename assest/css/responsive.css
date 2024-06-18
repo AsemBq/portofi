@@ -7,6 +7,9 @@
   nav {
     display: none;
   }
+  input,textarea{
+    width: 80% !important;
+  }
 
 
   .sections section{
